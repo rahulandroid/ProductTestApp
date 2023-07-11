@@ -35,12 +35,6 @@ class HomeViewModel @Inject constructor(private val repository: ProductsReposito
         }
     }
 
-    fun updateProduct(
-        product: Product,
-        productListCategory: ProductListCategory
-    ) = repository.updateProduct(viewModelScope, product) {
-        getProducts(productListCategory = productListCategory)
-    }
 
     init {
         _homeScreenState.value = homeScreenState.value.copy(isLoading = true)

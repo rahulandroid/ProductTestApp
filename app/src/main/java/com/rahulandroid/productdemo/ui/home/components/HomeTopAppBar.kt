@@ -30,8 +30,7 @@ fun HomeTopAppBar(
     scrollBehavior: CollapsingTopBarScrollBehavior,
 ) {
     val isSettingsDropDownExpanded = remember { mutableStateOf(false) }
-    val listOfChoices =
-        listOf(stringResource(id = R.string.action_settings), stringResource(id = R.string.pay))
+ 
     CollapsingTopBar(
         scrollBehavior = scrollBehavior,
         title = {

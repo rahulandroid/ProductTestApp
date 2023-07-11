@@ -26,9 +26,5 @@ class DetailViewModel @Inject constructor(private val repository: ProductsReposi
         }
     }
 
-    fun updateProduct(product: Product) {
-        repository.updateProduct(viewModelScope, product) {
-            getProductById(product.id)
-        }
-    }
+
 }

@@ -12,10 +12,34 @@ Product Store App
 - https://fakestoreapi.com/products?limit=10
 <table>
   <tr>
-    <td>First screenshot List </td>
-     <td>Second screenshot Details</td>
-    <td>Third screenshot Product List</td>
-    <td>Fourth screenshot SideMenu</td>
+     <td> 
+     Main Features
+Kotlin
+MVVM
+Jetpack Compose
+MutableState
+Use Case
+Hilt
+Navigation Components
+Retrofit2
+Pagination
+Room</td>
+ <td>Compose features
+Bottom Navigation
+Horizontal Pager
+Lazy Row
+FlowRow
+Colors
+Circular Progress Indicator
+Rows
+Columns
+Scaffold</td>
+     <td>Unit Testing
+Test Room
+Test Flow
+Test Coroutine
+Hilt Test
+Test Use Case</td> 
   </tr>
   
  </table>
